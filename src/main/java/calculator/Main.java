@@ -12,8 +12,8 @@ public class Main {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String input = reader.readLine();
         boolean isRoman = false;
-        String[] strings = input.toString().split(" ");
-        if (strings.length > 2) {
+        String[] strings = input.split(" ");
+        if (strings.length > 3) {
             throw new TooManyOperandsException();
         }
         Integer[] digits = new Integer[2];
