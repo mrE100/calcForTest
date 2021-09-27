@@ -2,8 +2,8 @@ package calculator;
 
 public class ArabicToRoman {
     private final Integer result;
-    private static int[]    numbers = {100, 50, 10,    9,    5,    4,    1 };
-    private static String[] letters = {"C", "L", "X",  "IX", "V",  "IV", "I" };
+    private static int[]    numbers = {100, 90, 50, 40, 10, 9, 5, 4, 1 };
+    private static String[] letters = {"C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
 
     public ArabicToRoman(Integer result) {
         this.result = result;
